@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <meta name="description" content="Area, with JavaScript" />
+    <meta name="description" content="Area of a trapezoid, with JavaScript" />
     <meta name="keywords" content="immaculata, ics2o" />
     <meta name="author" content="Remy Skelton" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -13,29 +13,30 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
     <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.pink-deep_orange.min.css" />
     <link rel="stylesheet" href="./css/style.css" />
-    <title>Payment info, with JavaScript</title>
+    <title>Area of a trapezoid, with JavaScript</title>
   </head>
   <body>
-              <h2>Payment Infomation</h2>
-              <h5>Please enter your payment information</h5>
+              <h2>Area of a trapezoid</h2>
+              <h5>Please enter your information of your trapezoid</h5>
     <!--- Script --->
     <script src="./js/script.js"></script>
-    <!--- Hours Worked --->
+    <!--- A side --->
       <form action="javascript:enterClicked()">
-        <label for="aSide">A side of a trapezoid</label>
-        <input type="text" id="hours-worked" placeholder="A side in cm"><br><br>
-        <!--- Rate --->
-        <label for="hourlyRate">Hourly Rate</label>
-        <input type="number" id="hourly-rate" placeholder="Hourly Rate" step=".01"><br><br>
-        <input type="submit" value="Pay">
+        <label for="fname">B1 side of a trapezoid</label>
+        <input type="number" id="b1-side" placeholder="B1 side in cm" step=".01"><br><br>
+        <!--- B side --->
+        <label for="b2Side">B2 side of a trapezoid</label>
+        <input type="number" id="b2-side" placeholder="B2 side in cm" step=".01"><br><br>        
+        <!--- Hight --->
+        <label for="height">Height of a trapezoid</label>
+        <input type="number" id="height" placeholder="Height side in cm" step=".01"><br><br>
+        <input type="submit" value="calculate">
       </form>
     </p>
      <!-- Create a space where the user information will be displayed -->
-    <div id="takeHomeSalary"></div>
-    <div id="taxPaid">
-    </div>
+    <div id="area"></div>
     <center>
-    <img src="./images/trapazoid.png" width="75%" height="auto">
+    <img src="./images/Trapezoid.jpg" width="75%" height="auto">
     </center>
   </body>
 </html>
