@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Area, with JavaScript" />
+    <meta name="keywords" content="immaculata, ics2o" />
+    <meta name="author" content="Remy Skelton" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon/favicon-16x16.png" />
+    <link rel="manifest" href="./favicon/site.webmanifest" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.pink-deep_orange.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Payment info, with JavaScript</title>
+  </head>
+  <body>
+              <h2>Payment Infomation</h2>
+              <h5>Please enter your payment information</h5>
+    <!--- Script --->
+    <script src="./js/script.js"></script>
+    <!--- Hours Worked --->
+      <form action="javascript:enterClicked()">
+        <label for="aSide">A side of a trapezoid</label>
+        <input type="text" id="hours-worked" placeholder="A side in cm"><br><br>
+        <!--- Rate --->
+        <label for="hourlyRate">Hourly Rate</label>
+        <input type="number" id="hourly-rate" placeholder="Hourly Rate" step=".01"><br><br>
+        <input type="submit" value="Pay">
+      </form>
+    </p>
+     <!-- Create a space where the user information will be displayed -->
+    <div id="takeHomeSalary"></div>
+    <div id="taxPaid">
+    </div>
+    <center>
+    <img src="./images/trapazoid.png" width="75%" height="auto">
+    </center>
+  </body>
+</html>
